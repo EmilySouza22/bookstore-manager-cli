@@ -5,8 +5,6 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![CLI](https://img.shields.io/badge/CLI-000000?style=for-the-badge&logo=windowsterminal&logoColor=white)
 
-Aplicação de linha de comando (CLI) para gerenciamento de uma pequena livraria, desenvolvida como Projeto Final Avaliativo do Módulo 01 do curso Desenvolvedor(a) Back End Node.
-
 ## 📖 Descrição do Projeto
 
 O **BookStore Manager CLI** é um sistema de gerenciamento de livraria executado via terminal, que permite administrar autores, livros, clientes e empréstimos, utilizando o PostgreSQL como banco de dados relacional para persistência das informações. O sistema substitui o controle manual de uma livraria por uma aplicação organizada, com regras de negócio, validações e relatórios gerenciais.
