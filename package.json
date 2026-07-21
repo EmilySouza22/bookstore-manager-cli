@@ -1,5 +1,5 @@
 {
-	"name": "bookstore-manager-cli",
+	"name": "bookstore-cli",
 	"version": "1.0.0",
 	"description": "Aplicacao CLI para gerenciamento de uma livraria (autores, livros, clientes e emprestimos), utilizando Node.js, TypeScript e PostgreSQL.",
 	"main": "dist/main.js",
