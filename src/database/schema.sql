@@ -1,5 +1,5 @@
 -- =========================================================
--- BookStore CLI - Script de criacao do banco de dados
+-- BookStore Manager CLI - Script de criacao do banco de dados
 -- =========================================================
 -- Execute este script conectado ao banco "bookstore_db"
 -- (crie o banco antes com: CREATE DATABASE bookstore_db;)

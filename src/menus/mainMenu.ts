@@ -20,7 +20,7 @@ export async function iniciarMenuPrincipal(): Promise<void> {
 	while (continuarExecucao) {
 		console.clear();
 		console.log('=================================');
-		console.log('   BookStore CLI');
+		console.log('   BookStore Manager CLI');
 		console.log('=================================\n');
 
 		const opcaoEscolhida = await selecionarOpcao('Selecione uma opcao:', [

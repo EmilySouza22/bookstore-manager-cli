@@ -1,4 +1,4 @@
-# 📚 BookStore CLI
+# 📚 BookStore Manager CLI
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
@@ -9,7 +9,7 @@ Aplicação de linha de comando (CLI) para gerenciamento de uma pequena livraria
 
 ## 📖 Descrição do Projeto
 
-O **BookStore CLI** é um sistema de gerenciamento de livraria executado via terminal, que permite administrar autores, livros, clientes e empréstimos, utilizando o PostgreSQL como banco de dados relacional para persistência das informações. O sistema substitui o controle manual de uma livraria por uma aplicação organizada, com regras de negócio, validações e relatórios gerenciais.
+O **BookStore Manager CLI** é um sistema de gerenciamento de livraria executado via terminal, que permite administrar autores, livros, clientes e empréstimos, utilizando o PostgreSQL como banco de dados relacional para persistência das informações. O sistema substitui o controle manual de uma livraria por uma aplicação organizada, com regras de negócio, validações e relatórios gerenciais.
 
 ## 🎯 Objetivo
 
@@ -62,8 +62,8 @@ Antes de instalar o projeto, é necessário ter instalado:
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/EmilySouza22/bookstore-cli
-   cd bookstore-cli
+   git clone https://github.com/EmilySouza22/bookstore-manager-cli
+   cd bookstore-manager-cli
    ```
 
 2. Instale as dependências:
@@ -154,7 +154,7 @@ O tratamento de erros é centralizado em `src/utils/errors.ts`, com classes espe
 ## 📁 Estrutura de Pastas
 
 ```
-bookstore-cli/
+bookstore-manager-cli/
 ├── database/
 │   └── schema.sql
 ├── src/
@@ -180,7 +180,7 @@ bookstore-cli/
 Ao iniciar a aplicação com `npm run dev`, o menu principal é exibido:
 
 ```
-? BookStore CLI — Selecione uma opção:
+? BookStore Manager CLI — Selecione uma opção:
 ❯ Autores
   Livros
   Clientes
